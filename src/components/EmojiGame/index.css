@@ -1,0 +1,24 @@
+/* Write your code here. */
+.app-container {
+  height: 100vh;
+}
+
+.emoji-game-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+.emojis-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  height: 100%;
+  padding: 16px;
+}
